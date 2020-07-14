@@ -1,0 +1,56 @@
+{% extends "base.html" %}
+
+
+{% block title %}
+이력서
+{% endblock %}
+
+
+{% block content %}
+<br>
+<div class="container">
+    <form>
+        <div class="form-group">
+          <label for="exampleFormControlInput1">성명</label>
+          <input type="name" class="form-control" id="exampleFormControlInput1">
+        </div>
+
+        <div class="form-group">
+            <label for="exampleFormControlInput1">나이</label>
+            <input type="age" class="form-control" id="exampleFormControlInput1">
+        </div>
+      
+        <div class="form-group">
+            <label for="exampleFormControlInput1">이메일</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1">
+        </div>
+
+        <div class="form-group">
+            <label for="exampleFormControlInput1">각오의 한마디</label>
+            <input type="gac" class="form-control" id="exampleFormControlInput1">
+        </div>
+
+        <div class="form-group">
+            <label for="exampleFormControlFile1">사진 첨부</label>
+            <input type="file" class="form-control-file" id="exampleFormControlFile1">
+        </div>
+
+        
+        <button type="button" class="btn btn-dark">제출</button>
+
+      </form>
+  </div>
+{% endblock %}
+
+
+{% block footer %}
+<br><br>
+<div class="container-fluid">
+    <div class="jumbotron jumbotron-fluid" style="margin-bottom: 0em;">
+        <div class="container">
+          <h1 class="display-4">FOOTER</h1>
+          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        </div>
+      </div>
+</div>
+{% endblock %}
